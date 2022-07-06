@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" cacheShape="false" centerShape="false" prefHeight="655.0" prefWidth="482.0" scaleShape="false" spacing="20.0" style="-fx-background-color:Gray " xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.HelloApplication">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Pane fx:id="pane" prefHeight="86.0" prefWidth="451.0" style="-fx-background-color: white " styleClass="paneUp">
+        <effect>
+            <DropShadow />
+        </effect>
+        <Label fx:id="lb" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="18.0" prefHeight="51.0" prefWidth="418.0" style="-fx-background-color: light grey;" styleClass="lb">
+            <font>
+                <Font size="35.0" />
+            </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+        </Label>
+    </Pane>
+    <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefHeight="518.0" prefWidth="442.0" styleClass="mainPane" VBox.vgrow="NEVER">
+        <VBox.margin>
+            <Insets />
+        </VBox.margin>
+        <Pane fx:id="btn8" layoutX="220.0" layoutY="4.0" onMouseClicked="#OnClick8" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+            <Label alignment="CENTER" layoutX="16.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="8">
+                <font>
+                    <Font name="System Bold Italic" size="26.0" />
+                </font>
+            </Label>
+        </Pane>
+        <Pane fx:id="btn9" layoutX="113.0" layoutY="4.0" onMouseClicked="#OnClick9" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText1" alignment="CENTER" graphicTextGap="0.0" layoutX="22.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="9" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="plus_l" layoutX="6.0" layoutY="4.0" onMouseClicked="#OnClick_plus" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+         <children>
+              <Label fx:id="welcomeText8" alignment="CENTER" graphicTextGap="0.0" layoutX="25.0" layoutY="20.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="+" textAlignment="CENTER">
+                  <font>
+                      <Font name="System Bold Italic" size="29.0" />
+                  </font>
+                  <cursor>
+                      <Cursor fx:constant="DEFAULT" />
+                  </cursor>
+              </Label>
+         </children></Pane>
+        <Pane fx:id="btn7" layoutX="329.0" layoutY="4.0" onMouseClicked="#OnClick7" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+            <children>
+
+                <Label fx:id="welcomeText" alignment="CENTER" graphicTextGap="0.0" layoutX="19.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="7" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="btn4" layoutX="327.0" layoutY="117.0" onMouseClicked="#OnClick4" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText2" alignment="CENTER" graphicTextGap="0.0" layoutX="14.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="4" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="btn5" layoutX="217.0" layoutY="117.0" onMouseClicked="#OnClick5" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText6" alignment="CENTER" graphicTextGap="0.0" layoutX="19.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="5" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="btn6" layoutX="110.0" layoutY="117.0" onMouseClicked="#OnClick6" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText7" alignment="CENTER" graphicTextGap="0.0" layoutX="19.0" layoutY="13.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="6" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="minus_l" layoutX="2.0" layoutY="117.0" onMouseClicked="#OnClick_minus" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText9" alignment="CENTER" graphicTextGap="0.0" layoutX="15.0" layoutY="16.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="-" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="mult_l" layoutX="1.0" layoutY="226.0" onMouseClicked="#OnClick_mult" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText10" alignment="CENTER" graphicTextGap="0.0" layoutX="18.0" layoutY="20.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="*" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="btn3" layoutX="107.0" layoutY="226.0" onMouseClicked="#OnClick3" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText5" alignment="CENTER" graphicTextGap="0.0" layoutX="17.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="3" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="bnt1" layoutX="322.0" layoutY="226.0" onMouseClicked="#OnClick1" prefHeight="96.0" prefWidth="110.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText3" alignment="CENTER" graphicTextGap="0.0" layoutX="25.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="1" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="btn2" layoutX="213.0" layoutY="226.0" onMouseClicked="#OnClick2" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText4" alignment="CENTER" graphicTextGap="0.0" layoutX="15.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="2" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="pt_l" layoutX="320.0" layoutY="342.0" onMouseClicked="#OnClick_pt" prefHeight="96.0" prefWidth="110.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText31" alignment="CENTER" graphicTextGap="0.0" layoutX="25.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="." textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="btn0" layoutX="209.0" layoutY="342.0" onMouseClicked="#OnClick0" prefHeight="96.0" prefWidth="110.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText32" alignment="CENTER" graphicTextGap="0.0" layoutX="25.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="0" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="eq_l" layoutX="98.0" layoutY="342.0" onMouseClicked="#OnClick_eq" prefHeight="96.0" prefWidth="110.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText33" alignment="CENTER" graphicTextGap="0.0" layoutX="25.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="=" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+        <Pane fx:id="div_l" layoutY="342.0" onMouseClicked="#OnClick_div" prefHeight="96.0" prefWidth="104.0" style="-fx-background-color: white;">
+            <children>
+                <Label fx:id="welcomeText34" alignment="CENTER" graphicTextGap="0.0" layoutX="24.0" layoutY="18.0" prefHeight="61.0" prefWidth="71.0" style="-fx-background-color: grey;" text="/" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold Italic" size="29.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                    </cursor>
+                </Label>
+            </children>
+        </Pane>
+      <Label fx:id="bt_del" alignment="CENTER" graphicTextGap="0.0" layoutX="159.0" layoutY="457.0" onMouseClicked="#onClickClear" prefHeight="61.0" prefWidth="104.0" style="-fx-background-color: white;" text="C" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Label>
+
+    </Pane>
+
+</VBox>

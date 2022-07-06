@@ -1,0 +1,17 @@
+.root {
+
+    -fx-background-color: #000;
+
+
+}
+.mainPane{
+
+    -fx-blend-mode: #FFD700;
+
+}
+.paneUp{
+    -fx-background-color: #F8F8F8;
+}
+.lb{
+    color:#DCDCDC;
+}
