@@ -17,7 +17,7 @@
         <effect>
             <DropShadow />
         </effect>
-        <Label fx:id="lb" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="18.0" prefHeight="51.0" prefWidth="418.0" style="-fx-background-color: light grey;" styleClass="lb">
+        <Label fx:id="lb" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="18.0" prefHeight="51.0" prefWidth="418.0" text= "0" style="-fx-background-color: light grey;" styleClass="lb">
             <font>
                 <Font size="35.0" />
             </font>
